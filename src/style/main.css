@@ -25,7 +25,29 @@
 
 @keyframes slideup{
     100%{
-      font-size: 1rem;
+      top: 0;
     }
 }
 
+
+@media screen and (max-width: 768px) {
+    .main h1{
+        font-size: 3.8rem;
+        animation: 0.5s font both;
+    }
+    .main{
+        position: relative;
+        top: 30px;
+    }
+
+    @keyframes font{
+        100%{
+            font-size: 3rem;
+        }
+    }
+    @keyframes slideup{
+        100%{
+          top: 0;
+        }
+    }
+}

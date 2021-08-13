@@ -2,13 +2,28 @@ import "../style/start.css";
 import Start from "./start";
 import Main from "./main";
 
-import { Route } from "react-router-dom";
+import { Route, useLocation } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
+  let modalRef = useRef();
+  let [height, setHeight] = useState(0);
+
+  const location = useLocation();
+
+  useEffect(() => {
+    setHeight((window.innerHeight * 60) / 100);
+
+    if (location.pathname === "/main") {
+      modalRef.current.style.height = "70vh";
+    } else if (location.pathname === "/ai_future_react") {
+      modalRef.current.style.height = `${height}px`;
+    }
+  });
   return (
     <>
       {" "}
-      <div className="modal">
+      <div ref={modalRef} className="modal">
         {" "}
         <div>
           {" "}

@@ -97,7 +97,7 @@ body {
     }
     
     .modal {
-        display: none;
+        display: block;
         width: 90vw;
         height: 40vh;
         background-color: white;
