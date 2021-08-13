@@ -16,7 +16,7 @@ export default function Home() {
 
     if (location.pathname === "/main") {
       modalRef.current.style.height = "70vh";
-    } else if (location.pathname === "/ai_future_react") {
+    } else if (location.pathname === "/") {
       modalRef.current.style.height = `${height}px`;
     }
   });
