@@ -1,0 +1,31 @@
+.main{
+    background-color: rgb(226, 226, 250);
+    border-radius: 10px;
+    height: 30vh;
+    text-align: center;
+    animation: 1s slideup both;
+    position: relative;
+    top: 20px;
+    transition: all 0.5s;
+}
+.main:hover{
+    background-color: rgb(214, 214, 214);
+}
+
+.main h1{
+    font-size: 6rem;
+    animation: 0.5s font both;
+}
+
+@keyframes font{
+    100%{
+        font-size: 3rem;
+    }
+}
+
+@keyframes slideup{
+    100%{
+      font-size: 1rem;
+    }
+}
+
