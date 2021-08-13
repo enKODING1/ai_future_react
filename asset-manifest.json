@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ai_future_react/static/css/main.ca8b05ea.chunk.css",
-    "main.js": "/ai_future_react/static/js/main.e152e570.chunk.js",
-    "main.js.map": "/ai_future_react/static/js/main.e152e570.chunk.js.map",
+    "main.css": "/ai_future_react/static/css/main.ebbe4282.chunk.css",
+    "main.js": "/ai_future_react/static/js/main.7419af27.chunk.js",
+    "main.js.map": "/ai_future_react/static/js/main.7419af27.chunk.js.map",
     "runtime-main.js": "/ai_future_react/static/js/runtime-main.9cb3c529.js",
     "runtime-main.js.map": "/ai_future_react/static/js/runtime-main.9cb3c529.js.map",
     "static/js/2.ab73f8cb.chunk.js": "/ai_future_react/static/js/2.ab73f8cb.chunk.js",
     "static/js/2.ab73f8cb.chunk.js.map": "/ai_future_react/static/js/2.ab73f8cb.chunk.js.map",
     "index.html": "/ai_future_react/index.html",
-    "static/css/main.ca8b05ea.chunk.css.map": "/ai_future_react/static/css/main.ca8b05ea.chunk.css.map",
+    "static/css/main.ebbe4282.chunk.css.map": "/ai_future_react/static/css/main.ebbe4282.chunk.css.map",
     "static/js/2.ab73f8cb.chunk.js.LICENSE.txt": "/ai_future_react/static/js/2.ab73f8cb.chunk.js.LICENSE.txt",
     "static/media/home.css": "/ai_future_react/static/media/pcimg.367d7b82.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9cb3c529.js",
     "static/js/2.ab73f8cb.chunk.js",
-    "static/css/main.ca8b05ea.chunk.css",
-    "static/js/main.e152e570.chunk.js"
+    "static/css/main.ebbe4282.chunk.css",
+    "static/js/main.7419af27.chunk.js"
   ]
 }
